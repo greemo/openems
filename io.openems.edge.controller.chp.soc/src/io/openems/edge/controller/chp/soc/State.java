@@ -14,6 +14,7 @@ public enum State implements OptionsEnum {
 	ON(0, "Digital output ON"),
 	/**
 	 * Value is larger than the high threshold.
+	 *
 	 */
 	OFF(1, "Digital output OFF");
 
