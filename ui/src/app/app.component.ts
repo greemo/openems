@@ -20,6 +20,7 @@ export class AppComponent {
   public currentPage: 'Other' | 'IndexLive' | 'IndexHistory' = 'Other';
   public isSystemLogEnabled: boolean = false;
 
+
   private ngUnsubscribe: Subject<void> = new Subject<void>();
 
   constructor(
